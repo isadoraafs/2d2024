@@ -1,8 +1,25 @@
 :root{
-    --cor-fundo: #393981;
-    --cor-fontes: #FAF56A;
+    --cor-fundo: #813951;
+    --cor-fontes: #6a80fa;
 }
 .cabecalho{
     background-color:var(--cor-fundo);
     color:var(--cor-fontes);
 }
+.cabecalho{
+    background-color:var(--cor-fundo);
+    color:var(--cor-fontes);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:24px 0;
+}
+.imagem-cabecalho{
+    width:10%;
+}
+.item-lista-cabecalho{
+    display:inline-block;
+    margin:0 16px;
+    font: size 24px;
+}
+
