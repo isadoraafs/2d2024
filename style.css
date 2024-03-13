@@ -5,14 +5,10 @@
 
 
 :root {
-    --cor-fundo: #813945;
+    --cor-fundo: #e0112d;
     --cor-fontes: #05ebfc;
 }
 
-.cabecalho {
-    background-color: var(--cor-fundo);
-    color: var(--cor-fontes);
-}
 
 .cabecalho {
     background-color: var(--cor-fundo);
@@ -30,14 +26,14 @@
 .item-lista-cabecalho {
     display: inline-block;
     margin: 0 16px;
-    font: size 24px;
+    font: 24px;
 }
 
-.escola{
+.escola-imagem{
     width: 25%;
 }
 
-.escola-imagem {
+.escola {
     background-image: rgba(5, 193, 252, 1), rgba(233, 78, 190, 1);
     color: var(--cor-fontes);
     display: flex;
@@ -45,4 +41,6 @@
     padding: 24px 0;
 }
 
-.escola-div-conteudo {}
+.escola-div-conteudo {
+    width: 35%;
+}
