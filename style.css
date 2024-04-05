@@ -63,7 +63,7 @@ padding: 24px 0;
     grid-template-columns: 25% 25% 25% 25%;
 }
 .rodape{
-    background-color: aquamarine;
+    background-color: rgb(127, 146, 255);
     text-align: center;
 }
 .rodape-imagem{
